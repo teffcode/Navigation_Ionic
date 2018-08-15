@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>perfil</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p>Hi :)</p>
+  <p>{{perfil}}</p>
+
+  <button ion-button color="secondary" (click)="navigateBack()">
+    <ion-icon name="arrow-dropleft"></ion-icon>
+    GO to BACK
+  </button>
+
+  <button ion-button color="secondary" (click)="navigateNext()">
+    GO to NEXT
+    <ion-icon name="arrow-dropright"></ion-icon>
+  </button>
+
+</ion-content>
